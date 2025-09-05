@@ -1,5 +1,4 @@
--- plugin/argute.lua --
-
+-- plugin/oxeye.lua --
 
 if not pcall(require, 'lspconfig')
   or not pcall(require, 'nvim-treesitter.configs')
