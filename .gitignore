@@ -4,9 +4,6 @@
 # example
 example.simplicity
 
-# rust
-target
-
 # workspace setting
 .idea
 .ignore
