@@ -1,0 +1,13 @@
+# macOS indexer
+.DS_Store
+
+# example
+example.simplicity
+
+# rust
+target
+
+# workspace setting
+.idea
+.ignore
+.vscode
