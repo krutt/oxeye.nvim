@@ -40,7 +40,7 @@ if vim.fn.executable('oxeye') == 0 then
       vim.notify('Installing using uv command…', vim.log.levels.INFO)
     end)
     Job:new({
-      args = { 'tool', 'install', 'ty@latest' },
+      args = { 'tool', 'install', 'oxeye@latest' },
       command = 'uv',
       on_exit = function(_, return_val)
         if return_val ~= 0 then
