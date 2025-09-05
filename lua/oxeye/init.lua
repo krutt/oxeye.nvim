@@ -18,7 +18,7 @@ M.setup = function()
   if not configs.oxeye then
     configs.oxeye = {
       default_config = {
-        cmd = { 'target/debug/oxeye' },
+        cmd = { 'oxeye' },
         filetypes = { 'simplicity' },
         root_dir = util.root_pattern(
           {

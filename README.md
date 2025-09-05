@@ -16,7 +16,10 @@
   config = function()
     require('oxeye').setup()
   end,
-  dependencies = { 'nvim-treesitter/nvim-treesitter' },
+  dependencies = {
+    'neovim/nvim-lspconfig',
+    'nvim-treesitter/nvim-treesitter'
+  },
 }
 ```
 
@@ -25,7 +28,10 @@
 ```lua
 use {
   'krutt/oxeye.nvim',
-  dependencies = { 'nvim-treesitter/nvim-treesitter' },
+  dependencies = {
+    'neovim/nvim-lspconfig',
+    'nvim-treesitter/nvim-treesitter'
+  },
   setup = function()
     require('oxeye').setup()
   end,
@@ -40,9 +46,10 @@ oxeye.nvim/
 │
 ├── lua/
 │   └── oxeye/
-│       └── init.lua         # Initiate oxeye using treesitter
+│       └── init.lua         # Initiate oxeye using lspconfig for lspconfig
 │
 ├── plugin/
+│   ├── build.lua            # Check and install LSP server if not existed
 │   └── oxeye.lua            # Verify lua dependencies before setup
 │
 ├── LICENSE                  # Details of MIT License
