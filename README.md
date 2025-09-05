@@ -18,6 +18,7 @@
   end,
   dependencies = {
     'neovim/nvim-lspconfig',
+    'nvim-lua/plenary.nvim',
     'nvim-treesitter/nvim-treesitter'
   },
 }
@@ -30,6 +31,7 @@ use {
   'krutt/oxeye.nvim',
   dependencies = {
     'neovim/nvim-lspconfig',
+    'nvim-lua/plenary.nvim',
     'nvim-treesitter/nvim-treesitter'
   },
   setup = function()
