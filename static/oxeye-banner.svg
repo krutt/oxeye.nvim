@@ -98,14 +98,14 @@
     font-size='1.2rem'
     y='10rem'
     >
-    <tspan dy='0' x='40rem'>
+    <tspan dy='0' x='16rem'>
       /ˈäksˌī/
     </tspan>
     <tspan dy='1.6rem' x='16rem'>
-      Language server protocol and syntax highlighter for
+      Language Server Protocol &amp; Syntax Highlighter plugin for
     </tspan>
     <tspan dy='1.6rem' x='16rem'>
-      Simplicity blockchain programming language
+      Simplicity High-Level blockchain programming language
     </tspan>
   </text>
 </svg>
